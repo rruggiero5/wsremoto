@@ -1,0 +1,103 @@
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c
+$ git config --global user.name "Ricardo Ruggiero"
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c
+$ gti config --global user.email "rruggiero@globo.com"
+bash: gti: command not found
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c
+$ git config --global user.email "rruggiero@globo.com"
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c
+$ git clone https://github.com/rruggiero5/wsremoto
+Cloning into 'wsremoto'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (7/7), 1.59 KiB | 45.00 KiB/s, done.
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c
+$ ls
+'Dados do professor.txt'   Ecommerce/        formula1/    wsremoto/
+ diagramas.asta            Elevador/         unixyz/
+ diagramas.asta.lock       Exercicio_xpto/   Workspace/
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c
+$ cd wsremoto
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ ls
+README.md
+ls
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ ls
+README.md
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ ls
+Missao.txt  README.md
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ ls
+Missao.txt  README.md
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Missao.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ git add .
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Missao.txt
+
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ git commit -m "criacao do arquivo Missao"
+[main de5e03b] criacao do arquivo Missao
+ 1 file changed, 4 insertions(+)
+ create mode 100644 Missao.txt
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 354 bytes | 177.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rruggiero5/wsremoto
+   9b4f8d5..de5e03b  main -> main
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.43 KiB | 45.00 KiB/s, done.
+From https://github.com/rruggiero5/wsremoto
+   de5e03b..82989d5  main       -> origin/main
+Updating de5e03b..82989d5
+Fast-forward
+ Missao.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+004154456@TREDOTIWX119-VM MINGW64 ~/Desktop/Turma 11c/wsremoto (main)
+$

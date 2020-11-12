@@ -1,0 +1,15 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemploDo {
+
+	public static void main(String[] args) {
+		
+		int quantidade = Integer.parseInt(JOptionPane.showInputDialog("Quantidade"));
+		float valor = Float.parseFloat(JOptionPane.showInputDialog("Valor"));
+		System.out.println("Total: " + (quantidade*valor));
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package br.com.formula1.implementacao;
+
+import br.com.formula1.modelo.Carro;
+
+public class TesteCarro {
+
+	public static void main(String[] args) {
+		
+		// Instanciar o objeto (criar repartições em memória):
+		
+		Carro objeto = new Carro ();
+		// ver onde foi alocado em memória
+		// System.out.println("Objeto: " + objeto);
+		
+		objeto.escuderia="FERRARI";
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

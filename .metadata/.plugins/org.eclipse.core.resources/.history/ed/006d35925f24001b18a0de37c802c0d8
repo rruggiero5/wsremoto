@@ -1,0 +1,31 @@
+package br.com.elevador.implementacao;
+
+import javax.swing.JOptionPane;
+
+public class TesteElevador {
+
+	public static void main(String[] args) {
+		
+		int capPessoas = Integer.parseInt(JOptionPane.showInputDialog("Capacidade de Pessoas"));
+		
+		objeto.entrar()
+		objeto.entrar(JOptionPane.showInputDialog("Capacidade de Pessoas"););
+		System.out.println(objeto.retornarEscuderia());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

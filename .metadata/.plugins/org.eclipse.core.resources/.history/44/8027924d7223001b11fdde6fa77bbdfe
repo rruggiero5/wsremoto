@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		/*
+		 * 	Elabore uma aplicação que leia o valor de dois números inteiros 
+		 * e a operação aritmética desejada (+, -, * ou /)
+		 * calcule, então, a resposta adequada.
+		 * Se optar por uma divisão, leve em consideração que não podemos ter um número dividido por zero.
+		 */
+		
+		int numero1 = Integer.parseInt(JOptionPane.showInputDialog("Digite o primeiro número"));
+		int numero2 = Integer.parseInt(JOptionPane.showInputDialog("Digite o segundo número"));
+		String operacao = JOptionPane.showInputDialog("Qual operação desejada ( +, -, * ou /");
+		
+		if (operacao=="/" && numero2 !=0) {
+			// int resultado = numero1 + "operacao" + numero2
+			
+			System.out.println(numero1 + operacao + numero2 + " = ");
+			
+		}
+			
+		
+		
+		
+		
+	}
+
+}

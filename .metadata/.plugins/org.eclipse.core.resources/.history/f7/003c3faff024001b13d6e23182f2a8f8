@@ -1,0 +1,20 @@
+package br.com.xyz.implementacao;
+
+import br.com.unixyz.beans.Aluno;
+
+public class ImplementarAluno3 {
+
+	public static void main(String[] args) {
+		Aluno aluno = new Aluno();
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
